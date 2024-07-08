@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import Header from './components/Header';
+import BG from './components/BG';
 
 export default function Home() {
   return (
     <main>
       <Header />
+      <div id='animation'></div>
       <div className='mb-[208px] mt-[215px] flex flex-col items-center justify-center px-[34px] md:mb-[8.2292vw] md:mt-0 md:px-0'>
         <h1 className='mt-[16.6667vw] text-center text-[36px] md:w-[46.0938vw] md:text-[5.9375vw]'>
           {' '}
